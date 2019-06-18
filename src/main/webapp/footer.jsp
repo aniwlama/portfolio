@@ -15,31 +15,28 @@
 <html>
 <head>
     <%@include file="css.jsp" %>
+
 </head>
 
 
 <body>
 <%! int year = Year.now().getValue(); %>
-
-<%--<footer class="footer" style="background-color: lightslategrey" style="border-top-color: black">
-    &lt;%&ndash;<hr class ="separator">&ndash;%&gt;
-
-
-    <%! long view = 0; %>
-    <h6><p align="center"> Malwina Michalec <%= year%> </p></h6>
-    <h6><p align="center"> Views: <%= ++view%></p> </h6>
-
-
-</footer>--%>
+<%! long view = 0; %>
 
 <footer class="footer">
-    <%! long view = 0;%>
-    <p align="center"> Malwina Michalec <%=year%> <br>
-    <h6> Views: <%=++view%>
-    </h6> </p>
 
+    <p align="center"> Malwina Michalec <%= year%> </p>
 
 </footer>
+
+<%--<footer>
+<div class="same-line">
+
+    <div class="on-the-center" >Malwina Michalec <%=year%></div>
+    <div class="on-the-right" >views: <%=++ view%></div>
+</div>
+</footer>--%>
+
 
 <%@include file="js.jsp" %>
 

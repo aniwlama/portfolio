@@ -9,28 +9,30 @@
 <html>
 <head>
     <title>Contact Info</title>
-    <%@include file="css.jsp"%>
-    <%@include file="navbar.jsp"%>
+    <%@include file="css.jsp" %>
+    <%@include file="navbar.jsp" %>
+
 </head>
 <body>
+
 
 <div class="container">
     <div class="row">
         <div class="col-xl">
-            <p align="center"> About me: </p> </div>
+            <p align="center"> About me: </p>
+        </div>
 
         <div class="col-lg">
             <a class="btn btn-primary btn-block" href="https://www.linkedin.com/in/malwina-michalec-39a06699/"
                target="_blank" role="button">
                 <i class="fab fa-linkedin"></i></a>
             <br>
-             <h5><p text align="center">LinkedIn Profile </p> </h5>
+            <h5><p text align="center">LinkedIn Profile </p></h5>
 
             <%--<button class="btn btn-primary" type="submit">Button</button>
             <input class="btn btn-primary" type="button" value="Input">
             <input class="btn btn-primary" type="submit" value="Submit">
             <input class="btn btn-primary" type="reset" value="Reset">--%>
-
 
 
         </div>
@@ -39,10 +41,10 @@
     </div>
 </div>
 
-<footer>
-    <%@include file="footer.jsp"%>
+<footer class="footer">
+    <%@include file="footer.jsp" %>
 </footer>
 
-<%@include file="js.jsp"%>
+<%@include file="js.jsp" %>
 </body>
 </html>

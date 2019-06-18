@@ -14,7 +14,8 @@ body {
     /* Set the fixed height of the footer here */
     /*height: 60px;*/
     line-height: 60px; /* Vertically center the text there */
-    background-color: #f5f5f5;
+    /*background-color: #f5f5f5;*/
+
 }
 
 
@@ -33,4 +34,24 @@ body > .container {
 
 code {
     font-size: 80%;
+}
+
+.same-line {
+    height: 10px;
+    position: relative;
+}
+.same-line div{
+    display: inline-block;
+    position: absolute;
+}
+.on-the-left{
+    left:0px;
+}
+.on-the-center{
+    left: 0%;
+    right: 0%;
+    text-align: center;
+}
+.on-the-right{
+    right: 0px;
 }
